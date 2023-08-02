@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>CineStar | Ayuda</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" type="image/png" href="./imgbs/favicon.jpg">
+    
+</head>
+
+<body>
+    <!--navbar-->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark miNavbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./imgbs/logostar.jpg" alt="CineStar Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sesion.html">Iniciar Sesion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="registrarse.html">Registrarse</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ayuda.html">Ayuda</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Que ver ?
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="peliculas.html">Peliculas</a></li>
+                                <li><a class="dropdown-item disabled" href="#">Series</a></li>
+                                <li><a class="dropdown-item disabled" href="#">Cortos</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- preguntas y respuestas-->
+    <div class="container mt-4">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6">
+                <div class="card-body">
+                    <div class="card-body">
+                        <h2 class="text-center mb-4"> ¿Tienes preguntas? Tenemos respuestas</h2>
+
+                        <div class="accordion" id="faqAccordion">
+                            <!-- Pregunta 1 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        ¿Qué es CineStar?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                    data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        CineStar es una plataforma para ver películas y series en línea.
+                                        Ofrecemos una amplia selección de contenido para todos los gustos.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Pregunta 2 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        ¿Cómo puedo registrarme?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Para registrarte en CineStar, ve a la página de Registro y completa el
+                                        formulario con tu información personal. Una vez que hayas enviado el
+                                        formulario, habrás creado una cuenta y podrás acceder a nuestro contenido.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Pregunta 3 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        ¿Olvidaste tu contraseña?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Si has olvidado tu contraseña, ve a la página de Iniciar Sesión y haz clic en el
+                                        enlace "¿Olvidaste tu contraseña?". Te enviaremos un correo electrónico con
+                                        instrucciones para restablecer tu contraseña.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Pregunta 4 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        ¿Cuál es el costo de la membresía Premium?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        La membresía Premium tiene un costo de $1000 por mes. Con la membresía Premium,
+                                        puedes acceder a contenido exclusivo, descargar películas y series y obtener
+                                        soporte prioritario.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Pregunta 5 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseFive">
+                                        ¿Cómo puedo contactar al soporte técnico?
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                    data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Puedes contactar a nuestro equipo de soporte técnico a través del formulario de
+                                        contacto en nuestra página
+                                        de Ayuda o enviando un correo electrónico a soporte@cinestar.com. Nuestro equipo
+                                        estará encantado de
+                                        ayudarte con cualquier problema o pregunta que tengas.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Pregunta 6 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        ¿Puedo ver contenido en varios dispositivos?
+                                    </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                    data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Sí, puedes ver contenido en varios dispositivos. CineStar es compatible con
+                                        computadoras, tablets y
+                                        dispositivos móviles. Solo asegúrate de haber iniciado sesión con la misma
+                                        cuenta en todos los dispositivos
+                                        para acceder a tu contenido en cualquier lugar y momento.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Pregunta 7 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSeven">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSeven" aria-expanded="false"
+                                        aria-controls="collapseSeven">
+                                        ¿Cuál es la calidad de reproducción de los videos?
+                                    </button>
+                                </h2>
+                                <div id="collapseSeven" class="accordion-collapse collapse"
+                                    aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Los videos en CineStar se reproducen en calidad HD. La calidad exacta puede
+                                        variar según la velocidad de tu
+                                        conexión a internet y la disponibilidad de la película o serie en resolución HD.
+                                        Si tienes una membresía
+                                        Premium, también puedes disfrutar de contenido en resolución Full HD 4K, si está
+                                        disponible.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+   
+
+    
+    <!--footer-->
+    <div class="container">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Membresias</a></li>
+                <li class="nav-item"><a href="ayuda.html" class="nav-link px-2 text-body-secondary">Ayuda</a></li>
+                <li class="nav-item"><a href="registrarse.html" class="nav-link px-2 text-body-secondary">Registrarse</a></li>
+                <li class="nav-item"><a href="sesion.html" class="nav-link px-2 text-body-secondary">Inicia Sesion</a></li>
+            </ul>
+            <p class="text-center text-body-secondary">CineStar&copy; 2023 Company, Inc</p>
+        </footer>
+    </div>
+   
+    
+
+    <!--JS BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
