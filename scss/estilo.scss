@@ -5,10 +5,10 @@
 .miUniverso {
     width: 300px;
     height: 300px;
-    margin-left: 100px;
+    margin-top: 20px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    margin-top: 10px;
+    
 }
 
 body {
@@ -27,3 +27,21 @@ body {
     color:#F77737
 
 }
+
+header {
+    background-color: #010010;
+}
+
+.scale-up-center {
+    animation: scale-up-center 0.4s;
+}
+
+@keyframes scale-up-center {
+    0% {
+        transform: scale(0.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
